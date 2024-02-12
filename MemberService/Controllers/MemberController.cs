@@ -17,6 +17,24 @@ public class MemberController : ControllerBase
         PostalCode = 7673,
         ContactName = "Jens Peter Olesen",
         TaxNumber = "133466789"
+        },
+         new () {
+        Id = new Guid("c9fcbc4b-d2d1-4664-9079-dae78a1de555"),
+        Name = "August",
+        Address1 = "Søndergade 3",
+        City = "Harboøre",
+        PostalCode = 7673,
+        ContactName = "Jens Peter Olesen",
+        TaxNumber = "133466789"
+        },
+         new () {
+        Id = new Guid("c9fcbc4b-d2d1-4664-9079-dae78a1de669"),
+        Name = "Welat",
+        Address1 = "Søndergade 3",
+        City = "Harboøre",
+        PostalCode = 7673,
+        ContactName = "Jens Peter Olesen",
+        TaxNumber = "133466789"
         }
     };
 
@@ -26,6 +44,13 @@ public class MemberController : ControllerBase
     {
         _logger = logger;
     }
+
+      [HttpGet]
+    public IEnumerable<Member> Get()
+    {
+        return _members;
+    }
+    
 
    [HttpGet("{customerId}", Name = "GetCustomerById")]
     public Member Get(Guid customerId)

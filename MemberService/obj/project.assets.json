@@ -474,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/chilinhm/Desktop/HaaV/MemberService/MemberService.csproj",
+      "projectUniqueName": "/Users/chilinhm/Desktop/MemberService/MemberService/MemberService.csproj",
       "projectName": "MemberService",
-      "projectPath": "/Users/chilinhm/Desktop/HaaV/MemberService/MemberService.csproj",
+      "projectPath": "/Users/chilinhm/Desktop/MemberService/MemberService/MemberService.csproj",
       "packagesPath": "/Users/chilinhm/.nuget/packages/",
-      "outputPath": "/Users/chilinhm/Desktop/HaaV/MemberService/obj/",
+      "outputPath": "/Users/chilinhm/Desktop/MemberService/MemberService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/chilinhm/.nuget/NuGet/NuGet.Config"
